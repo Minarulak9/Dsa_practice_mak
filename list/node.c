@@ -16,6 +16,7 @@ void main(){
     head->data=0;
     head->next=NULL;
     insertNode(head,65,'A');
+    
     insertNode(head,66,'B');
     insertNode(head,67,'C');
     insertNode(head,97,'A');

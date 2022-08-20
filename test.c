@@ -1,4 +1,15 @@
 #include <stdio.h>
-void main (){
-    printf("%d",'\0');
+struct Node
+{
+    int val;
+    struct Node *next;
+};
+
+void main()
+{
+    struct Node *head,*temp;
+    head = NULL;
+    if(head->next)
+    printf("%dsdf",head->next);
+
 }
